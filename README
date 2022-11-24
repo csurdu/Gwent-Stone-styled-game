@@ -1,0 +1,10 @@
+ReadMe
+
+Am reusit sa implementez doar primul task;
+Mi am creat clase separate pentru tipul de carti necesare cat si pentru joc,actiuni si deck.
+M am folosit de obiecte din tipul acestor clase pentru a seta pe rand decurile si cartile luand informatiile din
+oicetul de tip InputData.
+Afisarea am facut-o cu ajutorul Jsonului.Modul in care am modelat afisarea fisierului este :
+Am verificat comanda de inceput si id ul jucatorului caeira ii este atribuita.
+Am afisat deckul respectiv iar apoi comanda si deckul pentru cel de al doilea player.
+Intr un final am afisat eroii jucatorilor si comanda de nexturn.
