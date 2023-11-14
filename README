@@ -1,10 +1,14 @@
-ReadMe
+Introducere
+Bine ați venit în lumea GwentStone! Sunteți proaspeții antreprenori ai studioului "OOP-Everything", și aveți misiunea de a crea un joc de cărți pe calculator care combină elemente din Hearthstone și Gwent. Jocul vostru promite să fie o experiență unică, cu mecanici inovatoare și o poveste captivantă pentru personajele create.
 
-Am reusit sa implementez doar primul task;
-Mi am creat clase separate pentru tipul de carti necesare cat si pentru joc,actiuni si deck.
-M am folosit de obiecte din tipul acestor clase pentru a seta pe rand decurile si cartile luand informatiile din
-oicetul de tip InputData.
-Afisarea am facut-o cu ajutorul Jsonului.Modul in care am modelat afisarea fisierului este :
-Am verificat comanda de inceput si id ul jucatorului caeira ii este atribuita.
-Am afisat deckul respectiv iar apoi comanda si deckul pentru cel de al doilea player.
-Intr un final am afisat eroii jucatorilor si comanda de nexturn.
+Date tehnice ale jocului
+Jocul poate fi jucat de doi jucători în mod amical, iar în stadiul actual de dezvoltare, un AI va simula acțiunile celui de-al doilea jucător. Serverul vă va furniza comenzile de joc și de depanare, iar voi trebuie să răspundeți la aceste comenzi pentru a menține coerența și funcționalitatea jocului.
+
+Prezentare scurtă a gameplay-ului
+GwentStone implică doi jucători, fiecare având mai multe deck-uri de cărți. La începutul jocului, fiecărui jucător îi este asignat un erou, iar un coin flip stabilește cine începe. Jocul se desfășoară în runde și ture, cu fiecare jucător primind "mana" la începutul rundei, tragând o carte din deck și plasând cărți pe masă pentru a lupta. Eroii au abilități speciale, iar cărțile pot avea diverse efecte și abilități.
+
+Masa de joc
+Masa de joc este o matrice 4x5, fiecare jucător având două rânduri alocate. Cărțile se plasează pe masă, iar efectele pot afecta cărțile dintr-un anumit rând. Există și coordonate pentru identificarea poziției cărților în teste.
+
+Formatul cărților de joc
+Există trei tipuri principale de cărți: Minion, Environment și Hero.
