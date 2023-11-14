@@ -1,14 +1,18 @@
-Introducere
-Bine ați venit în lumea GwentStone! Sunteți proaspeții antreprenori ai studioului "OOP-Everything", și aveți misiunea de a crea un joc de cărți pe calculator care combină elemente din Hearthstone și Gwent. Jocul vostru promite să fie o experiență unică, cu mecanici inovatoare și o poveste captivantă pentru personajele create.
+Introduction
+Welcome to the world of GwentStone! You are the fresh entrepreneurs of the "OOP-Everything" studio, with the mission to create a computer card game that combines elements from Hearthstone and Gwent. Your game promises to be a unique experience, featuring innovative mechanics and a captivating story for the created characters.
 
-Date tehnice ale jocului
-Jocul poate fi jucat de doi jucători în mod amical, iar în stadiul actual de dezvoltare, un AI va simula acțiunile celui de-al doilea jucător. Serverul vă va furniza comenzile de joc și de depanare, iar voi trebuie să răspundeți la aceste comenzi pentru a menține coerența și funcționalitatea jocului.
+Technical Details of the Game
+The game can be played by two players in a friendly mode, and in the current development stage, an AI will simulate the actions of the second player. The server will provide you with game and debugging commands, and it is your responsibility to respond to these commands to maintain the coherence and functionality of the game.
 
-Prezentare scurtă a gameplay-ului
-GwentStone implică doi jucători, fiecare având mai multe deck-uri de cărți. La începutul jocului, fiecărui jucător îi este asignat un erou, iar un coin flip stabilește cine începe. Jocul se desfășoară în runde și ture, cu fiecare jucător primind "mana" la începutul rundei, tragând o carte din deck și plasând cărți pe masă pentru a lupta. Eroii au abilități speciale, iar cărțile pot avea diverse efecte și abilități.
+Brief Overview of the Gameplay
+GwentStone involves two players, each with multiple decks of cards. At the beginning of the game, each player is assigned a hero, and a coin flip determines who starts. The game unfolds in rounds and turns, with each player receiving "mana" at the start of the round, drawing a card from the deck, and placing cards on the table to battle. Heroes have special abilities, and cards can have various effects and abilities.
 
-Masa de joc
-Masa de joc este o matrice 4x5, fiecare jucător având două rânduri alocate. Cărțile se plasează pe masă, iar efectele pot afecta cărțile dintr-un anumit rând. Există și coordonate pentru identificarea poziției cărților în teste.
+Game Board
+The game board is a 4x5 matrix, with each player having two allocated rows. Cards are placed on the board, and effects can affect cards in a specific row. Coordinates are used to identify the position of cards in tests.
 
-Formatul cărților de joc
-Există trei tipuri principale de cărți: Minion, Environment și Hero.
+Card Formats
+There are three main types of cards: Minion, Environment, and Hero.
+
+Feel free to consult the documentation for detailed information on these card types and their specific attributes, rules, and effects.
+
+These are the key aspects of the GwentStone project. You have the resources and creativity to make this game a success! Good luck in development!
